@@ -27,9 +27,9 @@ App = {
 
 };
 
-function imageFunction(att1, att2) {
-  console.log(att1 + " : " +att2);
-  window.location.assign("car.html?testsdcx123")
+function imageFunction(att1) {
+  console.log(att1);
+  window.location.assign("car.html?"+att1)
 }
 
 $(function() {
